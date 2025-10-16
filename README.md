@@ -1,27 +1,50 @@
-# Budget
+# Budget Management System
 
-A simple Java command-line program for tracking and displaying budget information.
+A simple desktop application for tracking personal expenses, income, and budget limits. Built using Java Swing, this tool allows users to log transactions, view financial summaries, and monitor their financial health with an intuitive GUI.
 
-## Repository
-This repository contains a single Java source file:
+## Features
 
-- `Budget.java` — main application source.
+- **Set Income & Budget Limit:** Define your total income and desired budget limit.
+- **Add Expenses:** Record expenses by category, amount, and date.
+- **Expense Table:** View all transactions in a tabular format.
+- **Financial Health Score:** Get a calculated score based on your savings and spending habits.
+- **Summary View:** See a breakdown of expenses, remaining balance, and overall summary.
+- **Warnings:** Alerts when expenses exceed budget limit or income.
+- **Reset Functionality:** Clear all data to start fresh.
 
-## Description
-This small project demonstrates basic Java I/O and simple budget calculations. It's intended as a learning or demo project and is easy to compile and run from the command line.
+## How to Run
+
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/Vrutik-0/Budget.git
+    ```
+2. **Compile the Java file:**
+    ```bash
+    javac Budget.java
+    ```
+3. **Run the application:**
+    ```bash
+    java Budget
+    ```
+**Or Just Download the code and run locally on machine with JDK**
+
+## Usage
+
+1. **Set your income** by entering the amount and clicking `Set Income`.
+2. **Set a budget limit** (optional), then click `Set Limit`.
+3. **Add expenses** by providing category, amount, and date, then click `Add Expense`.
+4. **View your financial health score** with the dedicated button.
+5. **See a summary** of all transactions and balances.
+6. **Reset budget** to clear all input and start over.
 
 ## Requirements
-- Java JDK
 
-## Build and run
-From the project directory (where `Budget.java` lives):
+- Java 8 or above
 
-```powershell
-# Compile
-javac Budget.java
+## Contributing
 
-# Run
-java Budget
-```
+Feel free to open issues or submit pull requests for improvements or new features.
 
-If the project uses packages or a build tool (Maven/Gradle), adjust the commands accordingly.
+## License
+
+This project is licensed under the MIT License.
